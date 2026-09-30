@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page">
+        <header class="site-header">
+            <h1>Your Name</h1>
+            <p class="position">Student and Aspiring Web Developer</p>
+            <nav aria-label="Main navigation">
+                <a href="#introduction">Introduction</a>
+                <a href="#experience">Experience</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="introduction section" id="introduction">
+                <h2>Introduction</h2>
+                <p>I am a student who enjoys learning how websites are made. I am practising HTML and CSS and like working on small projects that help me improve. Replace this paragraph with a short introduction about yourself.</p>
+            </section>
+
+            <figure class="profile-picture">
+                <img src="profile.jpg" alt="Portrait photo for the portfolio">
+                <figcaption>A little about me, one project at a time.</figcaption>
+            </figure>
+
+            <section class="section" id="experience">
+                <h2>Experience</h2>
+                <div class="experience-list">
+                    <article class="experience-item">
+                        <h3>School Project</h3>
+                        <p>Worked with classmates to plan and finish a classroom project.</p>
+                    </article>
+                    <article class="experience-item">
+                        <h3>Web Design Practice</h3>
+                        <p>Created simple web pages while learning HTML and CSS.</p>
+                    </article>
+                    <article class="experience-item">
+                        <h3>Group Activity</h3>
+                        <p>Shared ideas and helped organise tasks to meet a class deadline.</p>
+                    </article>
+                    <article class="experience-item">
+                        <h3>Personal Learning</h3>
+                        <p>Practised new computer skills and kept notes on what I learned.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="section" id="skills">
+                <h2>Skills</h2>
+                <div class="table-wrap">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Skill</th>
+                                <th>Level</th>
+                                <th>What I can do</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>HTML</td>
+                                <td>Learning</td>
+                                <td>Build the structure of a web page</td>
+                            </tr>
+                            <tr>
+                                <td>CSS</td>
+                                <td>Learning</td>
+                                <td>Add colour, spacing, and page styles</td>
+                            </tr>
+                            <tr>
+                                <td>Teamwork</td>
+                                <td>Good</td>
+                                <td>Work with classmates on shared tasks</td>
+                            </tr>
+                            <tr>
+                                <td>Communication</td>
+                                <td>Good</td>
+                                <td>Listen to ideas and explain my own</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section class="section" id="projects">
+                <h2>Projects</h2>
+                <div class="project-list">
+                    <article class="project">
+                        <h3>My First Web Page</h3>
+                        <p>A simple page made with HTML headings, paragraphs, and links.</p>
+                    </article>
+                    <article class="project">
+                        <h3>Student Portfolio</h3>
+                        <p>This portfolio brings my introduction, skills, and projects together.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="section video-section">
+                <h2>Learning HTML</h2>
+                <div class="video-frame">
+                    <iframe src="https://www.youtube-nocookie.com/embed/UB1O30fR-EE" title="HTML Crash Course for Beginners" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </section>
+
+            <section class="section" id="contact">
+                <h2>Contact Me</h2>
+                <form action="#contact" method="get">
+                    <label for="name">Name</label>
+                    <input id="name" name="name" type="text" placeholder="Your name" required>
+
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+                    <label for="phone">Phone number</label>
+                    <input id="phone" name="phone" type="tel" placeholder="Your phone number">
+
+                    <label for="gender">Gender</label>
+                    <select id="gender" name="gender" required>
+                        <option value="" selected disabled>Select an option</option>
+                        <option value="female">Female</option>
+                        <option value="male">Male</option>
+                        <option value="other">Other</option>
+                        <option value="prefer-not-to-say">Prefer not to say</option>
+                    </select>
+
+                    <label for="role">Role</label>
+                    <select id="role" name="role" required>
+                        <option value="" selected disabled>Select a role</option>
+                        <option value="student">Student</option>
+                        <option value="teacher">Teacher</option>
+                        <option value="employer">Employer</option>
+                        <option value="other">Other</option>
+                    </select>
+
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Your Name</p>
+        </footer>
+    </div>
+</body>
+</html>
